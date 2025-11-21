@@ -1,0 +1,55 @@
+     Assembly listing for: quiz4-q1.mas
+                Assembled: Thu Oct 02 14:25:54 EDT 2025
+
+000 0000 |         HEX ADDRESS       
+   **** Invalid hexadecimal value: 0 to FFFF allowable.
+001 ???? |         200 Begin,        
+   **** Instruction not recognized.
+   **** Operand undefined.
+002 ???? |         201 ADD           
+   **** Instruction not recognized.
+   **** Operand undefined.
+003 ???? |         202 Loop,         
+   **** Instruction not recognized.
+   **** Operand undefined.
+004 ???? |         203 STORE         
+   **** Instruction not recognized.
+   **** Operand undefined.
+005 ???? |         204 SKIPCOND      
+   **** Instruction not recognized.
+   **** Operand undefined.
+006 ???? |         205 JUMP          
+   **** Instruction not recognized.
+   **** Operand undefined.
+007 ???? |         206 JUMPI         
+   **** Instruction not recognized.
+   **** Operand undefined.
+008 ???? |         207 CLEAR         
+   **** Instruction not recognized.
+   **** Operand undefined.
+009 ???? |         208 Done,         
+   **** Instruction not recognized.
+   **** Operand undefined.
+00A ???? |         209 Base,         
+   **** Instruction not recognized.
+   **** Operand undefined.
+         |                          
+00B ???? |         20A Offs,         
+   **** Instruction not recognized.
+   **** Operand undefined.
+00C ???? |         20B One,          
+   **** Instruction not recognized.
+   **** Operand undefined.
+00D ???? |         20C Addr,         
+   **** Instruction not recognized.
+   **** Operand undefined.
+
+27 errors found.  Assembly unsuccessful.
+
+         SYMBOL TABLE
+         --------------------------------------------------
+          Symbol | Defined | References 
+         --------+---------+-------------------------------
+         --------------------------------------------------
+
+

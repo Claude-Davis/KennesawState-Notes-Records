@@ -1,0 +1,15 @@
+Hex Address Label Instruction
+200 Begin, LOAD Base
+201 ADD Offs
+202 Loop, SUBT One
+203 STORE Addr
+204 SKIPCOND 800
+205 JUMP Done
+206 JUMPI Addr
+207 CLEAR
+208 Done, HALT
+209 Base, HEX 200
+
+20A Offs, DEC 9
+20B One, HEX 0001
+20C Addr, HEX 0000
