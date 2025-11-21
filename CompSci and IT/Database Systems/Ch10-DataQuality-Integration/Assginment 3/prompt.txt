@@ -1,0 +1,21 @@
+For this lab you will take the various entities and associative entities, created
+from your normalization process and import them into MS SQL Server Management Studio.
+
+To create each table with its columns (attributes), you will use
+MS SQL Server Management Studio and the CREATE TABLE command.
+
+Once you have created the tables, you will use the INSERT INTO command to populate
+them with at least three rows of data (you make up the data yourself).
+
+Turn in ALL your queries, each screen capture showing the result of each query and
+each of your tables with all the data.
+
+
+
+WHAT TO TURN IN:
+- 1 WORD or PDF document that contains all teh screen capture of running EACH query separately.
+- Below each screen, please identify the tables that are clearly marked by each screen at the
+  bottom of the page - (underneath the sctrrn capture)
+
+
+- - - - - - -- - - - - - - -- - - - - - - -- - - - - - - -- - - - - - - -- - - - - - -
