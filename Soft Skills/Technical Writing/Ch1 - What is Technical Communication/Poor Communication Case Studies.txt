@@ -1,0 +1,93 @@
+"Comma quirk irks Rogers"  https://www.theglobeandmail.com/report-on-business/comma-quirk-irks-rogers/article1101686/
+
+"The £8.8m typo: how one mistake killed a family business"  https://www.theguardian.com/law/shortcuts/2015/jan/28/typo-how-one-mistake-killed-a-family-business-taylor-and-sons
+
+"The Cognitive Style of PowerPoint"  https://www.inf.ed.ac.uk/teaching/courses/pi/2016_2017/phil/tufte-powerpoint.pdf
+
+"Understanding the Tragic Hyatt Regency Walkway Collapse"  https://interestingengineering.com/culture/understanding-hyatt-regency-walkway-collapse
+
+--- --- ---
+
+For each case, do the following:
+    1. Determine the rhetorical situation. Who is communicating to whom about what, how, and why? What was the goal of the communication in each case?
+    2. Identify the communication error.
+    3. Explain what the costs/losses were.
+    4. Identify possible solutions or strategies that could have prevented the problem, and what benefits would be derived from implementing soultions or preventing the problem.
+
+Case 1: The promising chemist who buried his results
+    Bruce, a research chemist for a major petro-chemical company, wrote a
+    dense report about some new compounds he had synthesized in the laboratory
+    from oil-refining by-products. The bulk of the report consisted of tables
+    listing their chemical and physical properties, diagrams of their molecular
+    structure, chemical formulas and data from toxicity tests. Buried at the end
+    of the report was a casual speculation that one of the compounds might be a
+    particularly safe and effective insecticide.
+
+    Seven years later, the same oil company launched a major research program to
+    find more effective but environmentally safe insecticides. After six months of
+    research, someone uncovered Bruce’s report and his toxicity tests. A few hours
+    of further testing confirmed that one of Bruce’s compounds was the safe, 
+    economical insecticide they had been looking for.
+
+    Bruce had since left the company, because he felt that the importance of his
+    research was not being appreciated.
+
+Case 2: The rejected current regulator proposal
+    The Acme Electric Company worked day and night to develop a new current regulator
+    designed to cut the electric power consumption in aluminum plants by 35%. They knew
+    that, although the competition was fierce, their regulator could be produced more
+    affordably, was more reliable, and worked more efficiently than the competitors’ products.
+
+    The owner, eager to capture the market, personally but somewhat hastily put together
+    a 120-page proposal to the three major aluminum manufacturers, recommending that the new
+    Acme regulators be installed at all company plants.
+
+    She devoted the first 87 pages of the proposal to the mathematical theory and engineering
+    design behind his new regulator, and the next 32 to descriptions of the new assembly line
+    she planned to set up to produce regulators quickly. Buried in an appendix were the test
+    results that compared her regulator’s performance with present models, and a poorly drawn
+    graph showed the potential cost savings over 3 years.
+
+    The proposals did not receive any response. Acme Electric didn’t get the contracts, despite
+    having the best product. Six months later, the company filed for bankruptcy.
+
+Case 3: The instruction manual scared the customers away
+    As one of the first to enter the field of office automation, Sagatec Software, Inc. had built
+    a reputation for designing high-quality and user-friendly database and accounting programs for
+    business and industry. When they decided to enter the word-processing market, their engineers
+    designed an effective, versatile, and powerful program that Sagatec felt sure would outperform
+    any competitor.
+
+    To be sure that their new word-processing program was accurately documented, Sagatec asked the
+    senior program designer to supervise writing the instruction manual. The result was a thorough,
+    accurate and precise description of every detail of the program’s operation.
+
+    When Sagatec began marketing its new word processor, cries for help flooded in from office workers
+    who were so confused by the massive manual that they couldn’t even find out how to get started. Then
+    several business journals reviewed the program and judged it “too complicated” and “difficult to learn.”
+    After an impressive start, sales of the new word processing program plummeted.
+
+    Sagatec eventually put out a new, clearly written training guide that led new users step by step through
+    introductory exercises and told them how to find commands quickly. But the rewrite cost Sagatec $350,000,
+    a year’s lead in the market, and its reputation for producing easy-to-use business software.
+
+Case 4: Big Science - Little Rhetoric
+    The following excerpt is from Carl Sagan’s book, The Demon-Haunted World: Science as a Candle in the Dark
+    [8] itself both a plea for and an excellent example of clear scientific communication:
+        "The Superconducting Supercollider (SSC) would have been the preeminent instrument on the planet for
+        probing the fine structure of matter and the nature of the early Universe. Its price tag was $10 to
+        $15 billion. It was cancelled by Congress in 1993 after about $2 billion had been spent — a worst of
+        both worlds outcome. But this debate was not, I think, mainly about declining interest in the support
+        of science. Few in Congress understood what modern high-energy accelerators are for. They are not for
+        weapons. They have no practical applications. They are for something that is, worrisomely from the
+        point of view of many, called “the theory of everything.” Explanations that involve entities called
+        quarks, charm, flavor, color, etc., sound as if physicists are being cute. The whole thing has an
+        aura, in the view of at least some Congresspeople I’ve talked to, of “nerds gone wild” — which I
+        suppose is an uncharitable way of describing curiosity-based science. No one asked to pay for this had
+        the foggiest idea of what a Higgs boson is. I’ve read some of the material intended to justify the SSC.
+        At the very end, some of it wasn’t too bad, but there was nothing that really addressed what the project
+        was about on a level accessible to bright but skeptical non-physicists. If physicists are asking for 10 or
+        15 billion dollars to build a machine that has no practical value, at the very least they should make an
+        extremely serious effort, with dazzling graphics, metaphors, and capable use of the English language, to
+        justify their proposal. More than financial mismanagement, budgetary constraints, and political incompetence,
+        I think this is the key to the failure of the SSC."

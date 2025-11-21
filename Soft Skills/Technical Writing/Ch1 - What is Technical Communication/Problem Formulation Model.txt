@@ -1,0 +1,60 @@
+** 05/29 Note: turn this into an html file
+
+Barry Hyman’s Problem Formulation Model:
+
+1. Need Statement: recognizes and describes the need for a solution or improvement
+    to an “unsatisfactory situation.”  It answers the questions, “what is wrong with
+    the way things are currently? What is unsatisfactory about it? What negative effects
+    does this situation cause?” You may need to do research and supply data to quantify
+    the negative effects.
+        
+2. Goal Statement:  describes what the improved situation would look like once a solution
+    has been implemented. The goal statement defines the scope of your search for a solution.
+    At this point, do not describe your solution, only the goal that any proposed solution should
+    achieve. The broader you make your goal, the more numerous and varied your solutions can be; a
+    narrowly focused goal limits the number and variety of possible solutions.
+        
+3. Objectives: define measurable, specific outcomes that any feasible solution should optimize (aspects
+    you can use to “grade” the effectiveness of the solution). Objectives provide you with ways to
+    quantifiably measure how well any solution will solve the problem; ideally, they will allow you to
+    compare multiple solutions and figure out which one is most effective (which one gets the highest score
+    on meeting the objectives?).
+
+4. Constraints: define the limits that any feasible solution must adhere to in order to be acceptable (pass/fail
+    conditions, range limits, etc.). The key word here is must — constraints are the “go/no go” conditions that
+    determine whether a solution is acceptable or not.  These often include budget and time limits, as well as legal,
+    safety and other regulatory requirements.
+
+
+--- --- --- --- ---
+
+
+Applied to Communication Tasks
+
+1. Understand the Need: consider what gave rise to the need to communicate. Does someone lack sufficient information to make
+    a decision or take a position on an issue? Did someone request information? Is there some unsatisfactory situation that
+    needs to be remedied by communicating with your audience? What specifically is unsatisfactory about it? Consider your audience. 
+
+2. Establish a Goal: consider your purpose in writing. What do you want your reader to do, think, or know? Do you want your reader to
+    make a decision? Change their opinion or behaviour? Follow a course of action? What is your desired outcome? And what form and style
+    of communication will best lead to that outcome?
+
+3. Define Objectives: consider the specifics of your message and your audience to determine what criteria you should meet. What form should
+    it take? What content elements will you need to include? What kind of research will be required? What information does your audience
+    want/need? What do they already know?
+
+4. Identify Constraints: what are the pass/fail conditions of this document?  Consider your rhetorical situation. What conditions exist that
+    present barriers or challenges to communication? How can you address them?
+        ex.1. How much time is your audience willing to spend on this? How long can you make your document or presentation? (word length/time limit)
+        ex.2. What format and style do they require? Is there a Style Guide you must follow? A template you can use?
+        ex.3. How much time do you have to create it?  Do you have a deadline? (due date)
+        ex.4. Are there requirements for using sources? (academic integrity rules)
+
+
+--- --- --- --- ---
+
+
+Other Notes
+    * Consider what your audience's purpose may be for reading your document.
+        - How can you help them achieve their goal?
+    * Remember your document may be filed away and read again years later. Consider the needs/purposes of future audiences, as well.
