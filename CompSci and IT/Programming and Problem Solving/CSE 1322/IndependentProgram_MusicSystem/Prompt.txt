@@ -1,0 +1,10 @@
+Self-Assigned Prompt
+
+
+This program allows the user to "save/download" music, sort the music in alphabetical order, create different playlists, sort music by artists, and delete music.
+
+
+CLASSES
+1. Main / driver
+2. Playlist
+3. Song

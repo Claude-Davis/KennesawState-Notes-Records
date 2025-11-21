@@ -1,0 +1,48 @@
+# MODULE 1
+    ## Primitive Types
+        - Boolean
+        - Byte, Short, Integer, Long, Float, Double  (NOTE: listed in order from least to most RAM)
+        - Character
+
+    ## Complex Types
+        - String
+        - Array
+        - ArrayList
+        - Class, Object
+
+    ## Converting & Casting
+        - *Converting* is used to change string types to another type: double, integer, character, boolean
+            - FORMAT EX.: int b = Integer.parseInt(a);
+                          char b = word.toChar(a);
+            - Follows a consistent format aside from when converting to char type.
+        - *Casting* changes a decimal value (double or float) to its whole number. (the following decimal points are replaced with "0)
+
+    ## Java vs. Python
+        - In Java, numbers and strings can me concatenated (joined together as if both were strings) w/o having to manually convert the number to a string value. In Python, this would result in an error.
+        - In Java, {String * int} would result in an error. In python, the string would be repeated int amount of times.
+
+        --MATH--
+        - In Java, the method Math.pow(int, int) must be called for ecponentition. In python, {int ** int} works.
+        - In Java, the method Math.floor(int) must be called for floor division. In python, {int // int} works.
+        - In java, comparison of strings is done w/ {Str1.equals(Str2)}. In python, {string == string} works.
+
+    ## Arrays
+        - Fixed size; the size is declated when initialized and cannot be changed during runtime.
+        - Can only hold data of 1 type.
+        - FORMAT EX.: int[] numArray = new int[15];  (a new array is made to hold 15 int types.)
+
+    ## ArrayLists
+        - Dynamic size; aka, its size can be updated during runtime.
+        - Can olny hold 1 data type.
+        - FUNCTIONS: add(), remove(index) or remove(element), size(), get(index), clear(), contains(element), isEmpty(), set(index, elenent)
+
+
+# MODULE 2
+    ## Pass by Value
+        - Changes made to the value w/in a function do not affect the original value outside of the function.
+
+    ## Pass by Reference
+        - Changes made to the value w/in a function also affect the original value outside of the function.
+        - The true version of this is unsupported by Java; but, Java applies this concept to objects when they are passed as an argument to a method.
+
+    ## Overloaded Constructors
