@@ -1,0 +1,43 @@
+A JOIN is a clause that connects tables based on matching values within an attribute/column (usually primray/foreign keys).
+    -- result in a display of the requested data with the data coming from multiple [specified] sources.
+
+INNER JOIN - Displays only the rows that had equal values for the connected keys.
+    SELECT table1.attribute, table2.attribute, table2.attribute
+    FROM table1 INNER JOIN table2
+    ON table1.primary_key = table2.foreign_key;
+
+LEFT JOIN - Displays all rows from the left table, regardless of whether there are matches for them in the other table, and only displays rows with matching key values from the second table.
+    SELECT tableL.attribute, tableR.attribute, tableR.attribute
+    FROM tableL LEFT JOIN tableR
+    ON tableL.primary_key = tableR.foreign_key;
+
+RIGHT JOIN - Displays all rows from the right table, regardless of whether there are matches for them in the other table, and only displays rows with matching key values from the first table.
+    SELECT tableL.attribute, tableL.attribute, tableR.attribute
+    FROM tableL RIGHT JOIN tableR
+    ON tableL.primary_key = tableR.foreign_key;
+
+OUTER JOIN or FULL JOIN - Displays all rows from *both* tables regardless of the absence of matches for any of the rows.
+    SELECT *
+    FROM table1 FULL OUTER JOIN JOIN table2
+    ON table1.primary_key = table2.foreign_key;
+
+NATURAL JOIN - Allows for tables to be joined together without the user specifying which columns to connect (the database locates and connects the related columns itself). It behaves similarly to an INNER JOIN.
+    SELECT *
+    FROM table1
+    NATURAL JOIN table2;
+
+
+EQUI-JOIN - A type of JOIN that connects tables based on equal values within columns. INNER JOIN, OUTER JOIN, NATURAL JOIN, RIGHT JOIN, and LEFT JOIN are all types of equi-joins.
+
+NON EQUI-JOIN - A type of JOIN that does not compare values based on equality, but uses other comparison operators such as >, <, >=, <=, BETWEEN, and other.
+    -- Rows are connected based on ranges rather than exact matches.
+
+    SELECT t1.column1, t1.column2
+    FROM table1 t1
+    JOIN table2 t2
+    ON t1.column2 BETWEEN t2.column2 AND t2.column3;
+
+    SELECT e.name, e.salary, g.grade
+    FROM Employees e
+    JOIN SalaryGrades g
+    ON e.salary BETWEEN g.min_salary AND g.max_salary;

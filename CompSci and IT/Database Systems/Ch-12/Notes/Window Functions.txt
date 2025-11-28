@@ -1,0 +1,12 @@
+ROW NUMBER() OVER()
+
+RANK() OVER()
+
+DENSE_RANK() OVER()
+
+
+- the abovve functions are nested between SELECT and FROM
+- the OVER() clause specifies the desired window/view
+
+
+PARTITION BY or ORDER BY are used within OVER() clause

@@ -1,0 +1,22 @@
+@startuml
+
+interface FindFib {
+    +int calculateFib(int x)
+}
+
+class FibIteration implements FindFib {
+    +int calculateFib(int n)
+}
+
+class FibFormula implements FindFib {
+    +int calculateFib(int n)
+}
+
+class Main {
+    +main(String[] args)
+}
+
+FindFib <|.. FibIteration
+FindFib <|.. FibFormula
+
+@enduml

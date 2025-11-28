@@ -1,0 +1,6 @@
+prompt: Write a paragraph or two on a topic about which you have specialized knowledge,
+        and can use specialized terminology to explain the idea or instruct the reader.
+        Consider your audience when choosing how to write this. Will the audience have
+        to be familiar with the terminology used? See if you can write a paragraph that
+        can “baffle me with your techno-jargon,” and then re-write for a general audience,
+        using plain language.

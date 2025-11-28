@@ -1,0 +1,49 @@
+     Assembly listing for: Ex4_3.mas
+                Assembled: Thu Oct 02 14:28:49 EDT 2025
+
+         |                          / This program traverses a string and outputs each 
+         |                          / character. The string is terminated with a null.
+         |                          / Note: By changing the output window control setting
+         |                          / to "no linefeeds" the text will print in a single
+         |                          / line, rather than in a column of single characters.
+         |         ORG 100           
+100 D10A |  Getch  LOADI Chptr      / Load the character found at address chptr.
+101 8400 |         SKIPCOND 400     / If the character is a null, we are done.
+102 9104 |         JUMP Outp        / Otherwise, proceed with operation.
+103 7000 |         HALT              
+104 6000 |  Outp   OUTPUT           / Output the character.
+105 110A |         LOAD Chptr       / Move pointer to next character.
+106 3109 |         ADD One           
+107 210A |         STORE Chptr       
+108 9100 |         JUMP Getch        
+109 0001 |  One    HEX 0001          
+10A 010B |  Chptr  HEX 10B           
+10B 0048 |  String DEC 072          / H
+10C 0065 |         DEC 101          / e
+10D 006C |         DEC 108          / l
+10E 006C |         DEC 108          / l 
+10F 006F |         DEC 111          / o
+110 0020 |         DEC 032          / [space]
+111 0077 |         DEC 119          / w
+112 006F |         DEC 111          / o
+113 0072 |         DEC 114          / r
+114 006C |         DEC 108          / l
+115 0064 |         DEC 100          / d
+116 0021 |         DEC 033          / !
+117 0000 |         DEC 000          / [null]
+         |         END               
+
+Assembly successful.
+
+         SYMBOL TABLE
+         --------------------------------------------------
+          Symbol | Defined | References 
+         --------+---------+-------------------------------
+          Chptr  |   10A   | 100, 105, 107
+          Getch  |   100   | 108
+          One    |   109   | 106
+          Outp   |   104   | 102
+          String |   10B   | 
+         --------------------------------------------------
+
+

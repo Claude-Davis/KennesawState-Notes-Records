@@ -1,0 +1,90 @@
+class CandyBar {
+  private double cost;
+  private string manufacturer;
+  private string name;
+
+  public CandyBar(double c, string m, string n) {
+    cost=c;
+    manufacturer=m;
+    name=n;
+  }
+
+  public double getcost() {
+    return cost;
+  }
+}
+1) Given the above code, which definition for a child class ChocolateBar is valid?
+  Answer:
+  class ChocolateBar : CandyBar {
+    private string chocolatetype;
+  
+    public ChocolateBar(double c, string m, string n) : base(c,m,n) {
+      chocolatetype="Milk";
+    }
+  }
+
+
+2) In C# When a set of methods have the same name but different types/number of parameters in the same class, they are called:
+  Answer: overloaded methods
+
+
+class Birds {
+  private double wingSpan;
+  private string beakType;
+  private string name;
+
+public Birds(double w, string b, string n) {
+    wingSpan=w;
+    beakType=m;
+    name=n;
+  }
+
+  public double getwingSpan() {
+    return wingSpan;
+  }
+}
+3) Given the above code, which definition for a child class ChocolateBar is valid?
+  Answer:
+  class Raptors : Birds {
+    private string raptortype;
+  
+    public Raptors(double w, string b, string n) : base(w,b,n) {
+      raptortype="owl";
+    }
+  }
+
+
+using System;
+class Parent {
+  public int x;
+}
+class Child : Parent {
+  public void doStuff() {
+    Console.WriteLine("I'm a child");
+  }
+}
+class MainClass {
+  public static void Main (string[] args) {
+    Parent p1 = new Parent();
+    Child c1 = new Child();
+    Parent p2 = new Child();
+    p1.doStuff(); //Line 1
+    c1.doStuff(); //Line 2
+    p2.doStuff(); //Line 3
+    ((Child)p2).doStuff(); //Line 4
+  }
+}
+4) Which line or lines of code below will cause compile errors?
+  Answer:
+  Line 1-- calls the parent class and tries to use its non-existent doStuff() method
+  Line 3-- p2 is a Parent type object and therefpre does not have a doStuff() method tp call
+
+
+int x=10;
+for(int i=0;i<3;i++) {
+  x+=5;
+}
+Console.WriteLine(x); 
+5) What is the output?
+  Answer:
+  30

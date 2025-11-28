@@ -1,0 +1,4 @@
+Message - The information that you want to communicate.
+
+Context - The situation that creates the need for the writing.
+

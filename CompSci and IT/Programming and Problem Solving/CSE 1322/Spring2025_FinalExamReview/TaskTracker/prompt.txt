@@ -1,0 +1,52 @@
+GOAL: build your own version of a LinkedList to keep track of tasks in the order that they are added.
+
+FEATURES:
+ - add tasks 
+ - remove the first task
+ - view all tasks
+ - check if the list is empty
+
+REQUIRED CLASSES:
+ - Task
+    * represents a to-do item
+    * fields: String description, int taskId, int nextId
+    * methods: constructor, toString()
+ - TaskList
+    * your custom singly linked list
+    * fields: Node head (keeps track of the first task), int size
+    *** inner Node class
+         - Task data
+         - Node next;
+    * methods:
+         - void addTask(Task t) : add task to end of the list
+         - Task removeTask() : remove first task and return item
+         - void printTasks()
+         - boolean isEmpty
+
+
+
+PRACTICE FOCUS:
+* Learn how nodes connect and move.
+
+* Practice basic traversal (walking through the list).
+
+* Understand head pointer changes when removing.
+
+* Build confidence working with classes and objects.
+
+
+SAMPLE OUTPUT:
+        Added Task #1: "Do laundry"
+        Added Task #2: "Finish homework"
+        Added Task #3: "Call Mom"
+
+        All tasks:
+        Task #1: Do laundry
+        Task #2: Finish homework
+        Task #3: Call Mom
+
+        Removed Task: Task #1: Do laundry
+
+        Remaining tasks:
+        Task #2: Finish homework
+        Task #3: Call Mom

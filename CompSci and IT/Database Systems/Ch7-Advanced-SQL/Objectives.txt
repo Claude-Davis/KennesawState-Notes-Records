@@ -1,0 +1,20 @@
+Learn to...
+ - concisely define the following key terms:
+        - join
+        - natural join 
+        - equi-join
+        - outer join
+        - inner join
+        - correlated subquery
+        - user-defined data type
+        - Persisted Stored Modules (SQL/PSM)
+        - trigger 
+        - function
+        - procedure
+        - embedded SQL
+        - dynamic SQL
+ - write single- and multiple-table queries using SQL
+ - define 3 types of join commands and use SQL to write them
+ - understand the use of SQL in procedural language (both standard proprietary)
+ - understand commun use of database triggers in stored procedures
+ - discuss the SQL:2008 standard and explain its enhancements and extensions

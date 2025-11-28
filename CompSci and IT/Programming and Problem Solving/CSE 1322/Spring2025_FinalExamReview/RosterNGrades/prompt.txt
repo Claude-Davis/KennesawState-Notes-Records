@@ -1,0 +1,3 @@
+Program should take the name of the student from StudentRoster.txt and print their final grade next to their name.
+
+Program should also calculate the total grades and print the class's average.

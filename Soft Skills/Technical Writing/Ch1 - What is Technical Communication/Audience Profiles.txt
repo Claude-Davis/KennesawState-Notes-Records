@@ -1,0 +1,16 @@
+WHAT?...
+    An audience profile is a summary of who the audience is, specifically (name/title) or generally (general roles/significance to the company).
+
+WHY?...
+    An audience profile provides a better understanding of who the audience is that you're writing for; what is their significance to you/the company; what, likely, are their goals/purposes for reading your document; how do they, likely, feel about the topic, etc.
+
+
+Developing an Audience profile
+ 1. Who are your primary readers? (specific names and titles, or general roles)
+ 2. Are they above you in the organizational hierarchy? Lateral?Subordinate? Outside of your organization?
+ 3. Who else might read this document? (secondary readers)
+ 4. Do you know what their attitude towards the topic is?
+ 5. How might cultural differences affect their expectations and interpretations?
+ 6. How much technical background do the readers have?
+ 7. How much do they already know about the topic?
+ 8. What situation gave rise to this document?

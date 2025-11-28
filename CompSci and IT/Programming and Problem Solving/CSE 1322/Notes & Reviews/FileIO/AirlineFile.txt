@@ -1,0 +1,3 @@
+Welcome to Java Airlines!
+
+Have a safe flight!

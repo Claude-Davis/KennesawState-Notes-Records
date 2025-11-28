@@ -1,0 +1,25 @@
+prompt: The table below contains a collection of details about a research project
+        you have just completed on rising sea levels. Imagine that you are writing
+        documents for each of the 5 following audiences:
+            - Your supervisor/boss
+            - Scientists
+            - The general public
+            - Politicians
+            - High school students
+        What information about rising sea levels might each audience be interested
+        in? As you go down the list, consider which detail would be most interesting
+        and relevant to each audience.
+
+Categories of Information:
+    - The dollar damage caused by sea level increases each year.
+    - A literature review of previous research on rising sea levels.
+    - Descriptions of calibration procedures for your instruments.
+    - Some basic physics of how tides and currents work.
+    - How much your project costs.
+    - A log of all your measurements during the whole project.
+    - A list of people who worked on the project.
+    - Specifications of a new instrument to measure water conditions.
+    - A new result showing a connection between sea level and coastal developments.
+    - Procedures you used to avoid statistical biases in your data.
+    - Your plans for further measurements.
+    - Your recommendations for future research.

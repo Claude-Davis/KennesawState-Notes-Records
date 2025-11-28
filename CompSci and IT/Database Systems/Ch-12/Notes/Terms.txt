@@ -1,0 +1,14 @@
+Distributed Database - A single database spread across computers in multiple locations connected by a data communicaton network.
+    - still centrally administered, but allows for local flexibility and customization
+
+Data Replication - The copying of data onto other servers
+
+Horizontal Partitioning - 
+
+
+DESIGN GOALS
+    Location Transparency - A design goal for distributed databases which suggests a user or user program does not need to know the locstion of the data
+
+    Local Autonomy - A design goal for a distributed database that suggests a loccation can manage its own site when connections to their nodes
+
+    Replication Transparency - for distributed databases, 

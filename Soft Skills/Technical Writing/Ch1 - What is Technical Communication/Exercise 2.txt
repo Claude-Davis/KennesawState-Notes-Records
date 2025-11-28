@@ -1,0 +1,8 @@
+prompt: Think of a problem or an “unsatisfactory situation” that you have recently experienced.
+        Use Hymen’s Problem Formulation schema to formally define the problem — without proposing
+        any particular solutions. Your problem definition should ideally allow multiple possible
+        solutions that adhere to the following:
+            -Need/Unsatisfactory situation:
+            -What is your goal?
+            -What are some measurable objectives you want to achieve?
+            -What are your constraints?
