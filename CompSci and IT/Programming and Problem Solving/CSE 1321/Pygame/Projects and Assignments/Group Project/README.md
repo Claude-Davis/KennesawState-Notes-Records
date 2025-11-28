@@ -1,12 +1,15 @@
 # Cave-Defender_Main-Files
 
-  # START DATE: September 2024
-  # DUE DATE: 10 November 2024
-  # PRESENTATION: 13 November 2024
+  # START DATE:
+  September 2024
+  # DUE DATE:
+  10 November 2024
+  # PRESENTATION:
+  13 November 2024
 
   Professor: Betty Kretlow
   
-  Group Members: Mustafa Mustaf, Charles Kimani, Connor Layton, Benedict Adusei, Claudé Davis
+  Group Members: Mustafa Mustaf, Charles Kimani[@CharlesK7707](https://github.com/CharlesK7707), Connor Layton [@yummygum101](https://github.com/yummygum101), Benedict Adusei, Claudé Davis
   
   Project Reqs:
   * At least 10 different Surface objects visible on the Display
