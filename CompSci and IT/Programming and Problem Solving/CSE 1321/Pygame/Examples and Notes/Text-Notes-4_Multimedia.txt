@@ -1,0 +1,158 @@
+DRAW MODULE
+* Contains several functions for drawing shapes.
+* Draw objects are not created, instead you use functions available in the modules.
+
+  DRAW MODULE - RECT
+  * Takes in a target Surface, a color, and a Rect
+  * Returns a Rect that includes all of the altered pixels
+  * pygame.draw.rect(target_surface,color,Rect) -> Rect
+ 1.  Example:
+      pg.draw.rect(screen, (255,0,0), pygame.Rect(15,15,50,50)
+
+  DARW MODULE - POLYGON
+  * Takes in a target Surface, a color, and a list of points
+  * Returns a Rect that includes all of the polygon
+  * pygame.draw.polygon(target_surface, color, points) -> Rect
+ 2.  Example:
+      pg.draw.polygon(screen, (0,255,0), ((50,50),(125,125),(75,175),(25,350))
+
+  DRAW MODULE - CIRCLE
+  * Takes in a target Surface, a color, the coordinates of the center, and the radius
+  * Returns a Rect that includes the circle
+  * pygame.draw.circle(target_surface, color, center, radius) -> Rect
+ 3.  Example:
+      pg.draw.circle(screen, (0,0,255), (75,90), 30)
+
+  DRAW MODULE - ELLIPSE
+  * Takes a target Surface, a color, and a Rect
+  * Returns a Rect that includes the ellipse
+  * pygame.draw.ellipse(target_surface, color, Rect) -> Rect
+ 4.  Example: 
+       pg.draw.ellipse(screen, (255,255,0), Rect(20,20,50,200)
+
+  DRAW MODULE - LINE
+  * Takes in a target Surface, a color, and 2 pairs of coordinates
+  * The pairs of coordinates represent that starting point of the line and its ending point.
+  * Returns a Rect that includes the line
+  * pygame.draw.line(target_Surface,color,start_pos,end_pos) -> Rect
+ 5.  Example:
+       pg.draw.line(screen, (180,180,180), (0,0), (450,450))
+--------------------------------------------------------------------------------------------------------------------
+IMAGE MODULE
+* Pygame allows loading images from files.
+* Utilize functions in the Image module to load images, and these functions will give you the Surface.
+* It is recommended to always convert the image using either of the following:
+    convert()
+    - main method
+    convert_alpha()
+    - use this method for images with transparency
+* Supported Image Types: JPEG, PNG, BMP, GIF(non-animated), LBM, XPM, SVG, PCX, PNM, TGA(uncompressed), TIFF
+
+  IMAGE MODULE - LOAD
+  * Takes in the file name and Returns a Surface with the image in it.
+  * pygame.image.load(filename).convert() -> Surface
+  * pygame.image.load(filename).convert_alpha() -> Surface
+ 1.  Example:
+        face = pg.image.load("happy-face.png").convert()
+        screeen.blit(face, (0,0))
+--------------------------------------------------------------------------------------------------------------------
+TRANSFORM MODULE
+* Used to make edits to an image (like rotating or scaling).
+* Most of these transformations are *destructive*, meaning that information from the image is lost.
+* Always keep the original image in a separate Surface and save the transformations into a new Surface.
+
+  TRANSFORM MODULE - FLIP
+  * Takse in a Surface, a Boolean indicating if the x-axis should be flipped, and a Boolean indicating if the y
+    axis should be flipped.
+  * Returns a Surface with the image flipped
+  * flip() is non-destructive
+  * pygame.transform.flip(surface, flip_x,flip_y) -> Surface
+ 1.  Example:
+        original = pg.image.load("happ-face.png").convert()
+        face1 = pg.transform.flip(original, False, True)
+        screen.blit(original, (0,0))
+        screen.blit(face1, (300,0))
+
+  TRANFSORM MODULE - SCALE
+  * Takes in a Surface, and a pair of values for the new size
+  * Returns a Surface with the image scaled
+  * scale() is destructive
+  * pygame.transform.scale(surface,size) -> Surface
+ 2.  Example:
+        original = pg.image.load("Happy-Face.png").convert()
+        face1 = pg.transform.scale(original, (100,100))
+        face2 = pg.transform.scale(original, (200,200))
+        screen.blit(face2, (0,0))
+        screen.blit(face1, (300,0))
+
+  TRANSFORM MODULE - ROTATE
+  * Takes in a Surface and an angle
+    - Angle represents how much the image is rotated in degrees
+    - Positive values rotate the image clockwise
+    - Negative values rotate the image counter-clockwise
+  * Returns a Surface with the image rotated
+  * rotate() is destructive
+  * pygame.transform.rotate(surface,angle) -> Surface
+ 3.  Example:
+        original = pg.image.load("Happy-Face.png").convert()
+        face1 = pg.transform.rotate(original, 30)
+        screen.blit(face1, 50,50)
+--------------------------------------------------------------------------------------------------------------------
+FONT MODULE
+* pygame allows writing things to the Display
+* First, create a Font object using the Font constructor
+  - the Font constructor takes in the name of the file containing the font and its size
+  - if passed a value of None, the default font will be used
+* Unless you want to change the size/font type or want to write multiple things in different parts of the screen, you only need to create one font object.
+1. Example:
+      myfont = pygame.font.Font(None, 64)
+      myfont2 = pygame.font.Font("fontfile.ttf")
+
+  FONT MODULE - RENDER
+  * You cannot blit a Font object directly to the Display surface. The render() method of the Font object must
+    be used to create a Surface that contains the rendered text. Once the text is rendered, then you can blit
+    that Surface onto the Display.
+  * post creating a Font object, you can then call its render() method
+  * takes a string containg the text you wish to write, a Boolean for the antialias option, and a color
+    - antialias smoothes out the edges of your letters
+  * render() returns a Surface with the words written on it
+--------------------------------------------------------------------------------------------------------------------
+MIXER MODULE - SOUNDS
+* create a Sound object using the Sound constructor from the Mixer module
+* the Sound constructor takes in the name of the file containing the sound
+    sound = pygame.mixer.Sound("filename.mp3")
+* call the play() method to play the sound
+    sound.play()
+
+  MIXER MODULE - play() PARAMETERS
+    play(loops=0, maxtime=0, fade_ms=0)
+* Loops: how many times the sound should be repeated
+    - 0 plays the sound once
+    - 1 plays the sound twice
+* Maxtime: forcibly stops the sound after a certain number of milliseconds
+* fade_ms: the sound will start playing at a volume of 0 and then grow louder for that number of milliseconds
+
+  MIXER MODULE - USEFUL METHODS
+  * stop(): stops the sound's playbavk
+  * set_volune(volume): sets the sound's volume using a float between 0 and 1
+  * get_volume(): Returns the volume level as a float between and 1
+  * fade_out(time): lowers the sound's volume to 0 throughout the specified time in milliseconds
+--------------------------------------------------------------------------------------------------------------------
+MUSIC
+* a submodule of the Mixer module specifically for playing music
+* unlike Sound, ypu do not get a Music object when loading a music file
+  - instead all the music functionality is interacted straight through the music module
+* you can only ever have one music loaded or playing
+
+  MUSIC - GENERAL FUNCTIONS
+  * load a music file for playback (does not start music)
+      pygame.mixer.music.load("filename.mp3")
+  * starts playing the music (similar to Sound.play())
+      pygame.mixer.music.play(loops)
+  * restarts the music
+      pygame.mixer.music.rewind()
+  * stops the current music
+      pygame.mixer.music.stop()
+  * pause / unpause
+      pygame.mixer.music.pause()
+      pygame.mixer.music.unpause()
