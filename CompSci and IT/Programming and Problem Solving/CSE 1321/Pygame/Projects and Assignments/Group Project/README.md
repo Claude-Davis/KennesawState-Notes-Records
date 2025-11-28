@@ -1,10 +1,10 @@
 # Cave-Defender_Main-Files
 
-  # START DATE:
+  ## START DATE:
   September 2024
-  # DUE DATE:
+  ## DUE DATE:
   10 November 2024
-  # PRESENTATION:
+  ## PRESENTATION:
   13 November 2024
 
   Professor: Betty Kretlow
