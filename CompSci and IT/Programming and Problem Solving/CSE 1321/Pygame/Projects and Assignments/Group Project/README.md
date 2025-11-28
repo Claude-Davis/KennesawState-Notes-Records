@@ -1,12 +1,13 @@
 # Cave-Defender_Main-Files
 
-  ## START DATE:
+  ## Start Date
   September 2024
-  ## DUE DATE:
+  ## Deadline
   10 November 2024
-  ## PRESENTATION:
+  ## Presentation
   13 November 2024
 
+  ## Details
   Professor: Betty Kretlow
   
   Group Members: Mustafa Mustaf, Charles Kimani[@CharlesK7707](https://github.com/CharlesK7707), Connor Layton [@yummygum101](https://github.com/yummygum101), Benedict Adusei, Claudé Davis
