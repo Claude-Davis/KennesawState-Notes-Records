@@ -1,0 +1,43 @@
+Project Title: Cave Defender
+
+Date Started: October 2024
+Date Completed: November 2024
+
+Institution: Kennesaw State University
+Instructor: Betty Kretlow
+
+Prompt: Create a game using Pygame according to the requirements outlined in the file "1.Project Reqs."
+
+Credits:
+ * made with Pygame
+ * music - 
+
+In-Progress Add-ons:
+ * Ability to switch character skin during the "cover" and "game over" screen.
+ * Allow for complete user-decision on user character skin, enemy skin, and game setting.
+    - Chosen right sfter "Cover Screen" and right before instructions are given.
+    - Cannot be changed again unless user exits out and restarts the game.
+ * Ability to upload an image for user/enemy skin(??)
+
+         User or Enemy Skins:
+         * Fantasy
+         * Animal
+         * TV Shows and Movies
+
+         User Attack (Only long range):
+         * Fireballs
+         * Arrows
+         * Torns / spikes
+         * Swords / daggers
+         * Bullets(??) {only available if character includes a gun(??)}
+
+         Enemy Attack (Close combat OR long range): 
+         * 
+
+To-Do List:
+ * Re-do the "Instructions Screen"
+ * Find more (varied) audio effects
+ * Create 'treasures' as user pick-up items
+      * Create a tracker to record the number of total items gathered
+      * The items should despawn after __ seconds 
+ * Go over the font types for texts
