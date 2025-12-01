@@ -1,4 +1,4 @@
-# KSU - Learning Aid Repo for Computer Science and Information Technology Courses
+# KSU - Computer Science and Information Technology Courses
 
 ## Purpose of the "CompSci and IT" Folder
   This folder stores the assignments and examples from my core courses at Kennesaw State University (KSU).
