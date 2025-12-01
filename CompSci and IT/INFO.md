@@ -14,8 +14,11 @@
 - Obioku Obotette (Database Systems lecture - Fall 2052)
 
 🍁 Fall 2024 : Python
+
 🍀 Spring 2025 : Java, C#
+
 ☀️ Summer 2025 : Python
+
 🍁 Fall 2024 : SQL
 
 ---
@@ -34,8 +37,11 @@
 - Obioku Obotette (Database Systems lectura - Otoño 2052)
 
 🍁 Otoño 2024 : Python
+
 🍀 Primavera 2025 : Java, C#
+
 ☀️ Verano 2025 : Python
+
 🍁 Otoño 2024 : SQL
 
 ---
