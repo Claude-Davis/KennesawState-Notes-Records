@@ -1,7 +1,7 @@
 # KSU - Learning Aid Repo for Computer Science and Information Technology Courses
 
-## Purpose of the Repository
-  This repository stores the assignments and examples from my core courses at Kennesaw State University (KSU).
+## Purpose of the "CompSci and IT" Folder
+  This folder stores the assignments and examples from my core courses at Kennesaw State University (KSU).
   In addition to being a type of portfolio displaying the work I have done at KSU, the **purpose** of this repository is to serve as a guide / reference to aid in learning how to program in
   the different languages that I study at KSU.
 
@@ -22,7 +22,7 @@
 
 
 ## El Propósito del Repositorio
-  Este repositorio contiene las tareas y ejemplos de mis cursos de principal en Kennesaw State University (KSU).
+  Esta carpeta contiene las tareas y ejemplos de mis cursos de principal en Kennesaw State University (KSU).
   El **objetivo** del repositorio es ayudarse a aprender como usar los diferentes lenguajes de programación que estudio en KSU.
 
 <ins>los Profesores y TAs</ins>:
