@@ -8,7 +8,9 @@
 
 <ins>Professors</ins>:
 🍁 Fall 2024 | College Algebra | Ken Keating
+
 🍁 Fall 2025 | Calculus I | Neda Yazdianpour
+
 🍁 Fall 2025 | Discrete Mathematics | Dara Moazzami
 
 
@@ -20,7 +22,9 @@
   El **objetivo** del repositorio es ayudarse a aprender las diferentes ramas de las matemáticas, pensamiento lógico, resolución de problemas, y cómo aplicar estas fórmulas y conceptos al desarrollo de software, la ingeniería de datos y el análisis de datos.
 <ins>los Profesores y TAs</ins>:
 🍁 Otoño 2024 | College Algebra | Ken Keating
+
 🍁 Otoño 2025 | Calculus I | Neda Yazdianpour
+
 🍁 Otoño 2025 | Discrete Mathematics | Dara Moazzami
 
 
