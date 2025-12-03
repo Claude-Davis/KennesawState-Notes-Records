@@ -15,3 +15,7 @@ ADD FOREIGN KEY (id) REFERENCES Offering(id)
 --@block
 ALTER TABLE Offering
 ADD offering_type VARCHAR(50) NOT NULL;
+
+--@block
+ALTER TABLE maintenance
+MODIFY hourly_rate DECIMAL(3,2) NOT NULL;
