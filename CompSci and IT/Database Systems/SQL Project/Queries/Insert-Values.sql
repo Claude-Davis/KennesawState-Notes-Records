@@ -70,3 +70,9 @@ VALUES ('Jeff Dodges', 'Replace cooling fans, clear debris from airflow pathways
 ('Jeff Dodges', 'Replace damaged PCIe slots, replace failed RAM modules'),
 ('Lina Sanchez', 'Remote firmware update and patch management')
 ;
+--Jeff Dodges: hardware repair services
+--Lina Sanchez: software and optimization maintenance services
+--Michael Huang: database maintenance services
+--Emily Kim: data recovery repair services
+--Jackie Rodricks: laptop and desktop products
+--Ulysses Taylor: server, network router, and storage unit products
