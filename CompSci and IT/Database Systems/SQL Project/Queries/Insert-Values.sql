@@ -74,5 +74,14 @@ VALUES ('Jeff Dodges', 'Replace cooling fans, clear debris from airflow pathways
 --Lina Sanchez: software and optimization maintenance services
 --Michael Huang: database maintenance services
 --Emily Kim: data recovery repair services
+
+INSERT INTO Offering(contact_person, offering_description)
+VALUES ('Jackie Rodricks', 'Sale of 80 laptops and 120 desktops'),
+('Ulysses Taylor', 'Sale of 20 network routers'),
+('Jackie Rodricks', 'Sale of 200 desktops'),
+('Jackie Rodricks', 'Sale of 160 desktops and 95 laptops'),
+('Ulysses Taylor', 'Sale of 3 servers and 15 NAS storage units'),
+('Ulysses Taylor', 'Sale of 20 servers and 30 network routers')
+;
 --Jackie Rodricks: laptop and desktop products
 --Ulysses Taylor: server, network router, and storage unit products
