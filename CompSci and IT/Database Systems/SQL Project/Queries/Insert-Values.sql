@@ -10,3 +10,38 @@ INSERT INTO Customer(name, address, email, birthdate, age)
 VALUES ('John Russo', 'Brooklyn, NY', 'russoJ@gmail.com', 1998-05-27, 27),
 ('Sandy Martinez', 'Jonesboro, GA', 'sandyM@companyname.net', 2000-04-04, 25),
 ;
+
+INSERT INTO Service(service_date, company_unit, service_type)
+VALUES (2020-06-30, 'Repair Dept', 'Network Equipment Repair'),
+(2020-07-31, 'Maintenance Dept', 'Software Update'),
+(2021-01-21, 'Maintenance Dept', 'System Performance Optimization'),
+(2021-08-19, 'Maintenance Dept', 'Database Maintenance'),
+(2022-01-21, 'Repair Dept', 'Data Recovery'),
+(2023-09-25, 'Repair Dept', 'Device Component Replacement'),
+(2023-10-23, 'Maintenance Dept', 'System Performance Optimization'),
+(2024-10-05, 'Repair Dept', 'Device Component Replacement'),
+(2024-11-11, 'Maintenance Dept', 'Database Maintenance'),
+(2025-01-21, 'Maintenance Dept', 'Software Update'),
+(2025-03-28, 'Repair Dept', 'Data Recovery')
+(2025-05-15, 'Repair Dept', 'Network Equipment Repair'),
+(2025-12-01, 'Maintenance Dept', 'Software Update')
+;
+
+INSERT INTO Repair(cost)
+VALUES (650.78),
+(320.56),
+(325.45),
+(332.80),
+(342.50),
+(671.93)
+;
+
+INSERT INTO Maintenance(hourly_rate)
+VALUES (82.45),
+(115.22),
+(123.50),
+(120.89),
+(136.80),
+(80.90),
+(80.68)
+;
