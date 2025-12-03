@@ -64,6 +64,3 @@ CREATE TABLE Billing(
     amount DECIMAL(6, 2) NOT NULL
 );
 
---@block
-ALTER TABLE Service
-MODIFY COLUMN service_type VARCHAR(100) NOT NULL;
