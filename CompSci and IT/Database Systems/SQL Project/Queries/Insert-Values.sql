@@ -45,3 +45,12 @@ VALUES (82.45),
 (80.90),
 (80.68)
 ;
+
+
+INSERT INTO Product(product_name, first_release_date)
+VALUES ('Desktop Computer', 1990-05-05),
+('Laptop Computer', 2000-02-02)
+('Server', 2003-07-07),
+('NAS Storage Unit', 2016-09-09),
+('Network Router', 2003-04-04)
+;
