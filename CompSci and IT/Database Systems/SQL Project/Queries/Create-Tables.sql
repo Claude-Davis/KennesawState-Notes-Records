@@ -63,3 +63,7 @@ CREATE TABLE Billing(
     due_date DATE NOT NULL,
     amount DECIMAL(6, 2) NOT NULL
 );
+
+--@block
+ALTER TABLE Service
+MODIFY COLUMN service_type VARCHAR(100) NOT NULL;
