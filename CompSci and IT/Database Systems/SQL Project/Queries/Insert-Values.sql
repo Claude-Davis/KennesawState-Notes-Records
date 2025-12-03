@@ -54,3 +54,19 @@ VALUES ('Desktop Computer', 1990-05-05),
 ('NAS Storage Unit', 2016-09-09),
 ('Network Router', 2003-04-04)
 ;
+
+INSERT INTO Offering(contact_person, offering_description)
+VALUES ('Jeff Dodges', 'Replace cooling fans, clear debris from airflow pathways'),
+('Lina Sanchez', 'On-site security vulnerability remediation'),
+('Lina Sanchez', 'Network traffic analysis and optimization'),
+('Michael Huang', 'Backup database across company servers'),
+('Emily Kim', 'Recover configuration files, operating system images, and log data from failed solid-state drives'),
+('Jeff Dodges', 'Replace damaged RJ45 connector housing'),
+('Lina Sanchez', 'Spanning tree and redundancy protocol tuning'),
+('Jeff Dodges', 'Preventative replacement of optical trancievers in core routers and office routers'),
+('Michael Huang', 'Analyze and optimize database query performance and index structures'),
+('Lina Sanchez', 'On-site configuration of software synchronization across network devices'),
+('Emily Kim'. 'Emergency recovery of corrupted business-critical data from Oracle database'),
+('Jeff Dodges', 'Replace damaged PCIe slots, replace failed RAM modules'),
+('Lina Sanchez', 'Remote firmware update and patch management')
+;
