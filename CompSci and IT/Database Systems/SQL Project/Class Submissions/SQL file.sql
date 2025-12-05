@@ -206,3 +206,24 @@ VALUES (1, 1, '2025-03-12', 'Lilly Smith'),
 (12,12, '2023-10-18', 'Silvio Santos'),
 (13,13, '2022-03-26', 'Lee Jae-Yong')
 ;
+
+--@block
+CREATE INDEX idx_service_id ON bill(service_id);
+--@block
+ALTER TABLE bill
+DROP FOREIGN KEY `bill_ibfk_1`,
+ADD FOREIGN KEY (service_id) REFERENCES service(id)
+;
+
+--@block
+INSERT INTO bill(service_id, customer_id, service_date, amount_due, date_due)
+VALUES (1, 3, '2023-10-23' , 277.50 , '2023-11-24' ),
+(2,2, '2021-09-23' , 40963.78, '2021-10-23'),
+(4, 1, '2025-05-12' ,170.00, '2025-06-01'),
+(5, 5, '2024-03-01' ,190.00, '2024-03-11' ),
+(7, 10, '2025-10-07' ,240.00, '2025-10-21'),
+(9, 11, '2025-06-23' , 92.50, '2025-07-12'),
+(3, 13, '2023-09-02' , 4320.56, '2023-09-07'),
+(6,7, '2022-03-07', 105.88, '2022-03-14'),
+(8, 9, '2023-04-19', 250.45, '2023-04-21' )
+;
