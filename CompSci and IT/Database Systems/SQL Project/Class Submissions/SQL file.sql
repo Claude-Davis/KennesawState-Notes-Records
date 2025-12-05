@@ -165,3 +165,18 @@ UPDATE service
 SET service_condition='Replace power adapter of 2 routers for CompanyName2.'
 WHERE id=4
 ;
+
+--@block
+INSERT INTO Repair
+VALUES (2, 40963.78),
+(3, 4320.56),
+(6, 105.88),
+(8, 250.45)
+;
+INSERT INTO Maintenance
+VALUES (1, 92.50),
+(4, 85.00),
+(5, 95.00),
+(7, 80.00),
+(9, 92.50)
+;
