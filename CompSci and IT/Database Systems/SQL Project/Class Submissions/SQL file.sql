@@ -180,3 +180,29 @@ VALUES (1, 92.50),
 (7, 80.00),
 (9, 92.50)
 ;
+
+--@block
+Insert into Customer(id, name, address, phone, email, birthdate, age) Values 
+(8, 'Emial James', 'Atlanta, GA', 4701238973, 'Ejames@gmail.com', '1990-02-23', 35),
+(9, 'Name Phoenix', 'Phoenix, Arizona', 4808939291, 'Namephoenix@gmail.com', '1995-03-12', 30),
+(10, 'Burna Boy', 'Lagos, Nigeria', 2341029945,'burna@gmail.com', '1991-07-02', 34),
+(11, 'Hikari Mitsushima', 'Brooklyn, New York', 2120981234, 'hikariM@gmail.com', '1985-11-30',40),
+(12, 'Jason Derulo', 'Miramar, Florida', 4219801821, 'derulo@gmail.com', '1989-11-21', 36),
+(13, 'Lonnie Rashid Lynn', 'Chicago, Illinois', 2138930321, 'lonnierashid@gmail.com', '1972-03-13', 53)
+;
+
+INSERT INTO purchase(offering_id, customer_id, date_purchased, contact_person)
+VALUES (1, 1, '2025-03-12', 'Lilly Smith'),
+(2, 2, '2025-02-21', 'Jeffery Lewis' ),
+(3,3, '2025-10-09', 'John Thomas'),
+(4, 4, '2025-07-18', 'Layla Jackson'),
+(5, 5, '2024-12-26', 'Lebron James'),
+(6,7, '2010-09-23', 'Black Panther'),
+(7,6, '2012-08-12', 'Celine Dion'),
+(8,8, '2025-10-09', 'Denzel Washington'),
+(9,9, '2016-05-10', 'Starlan Treadwell'),
+(10,10, '2018-04-23', 'Kaydence Sartorius'),
+(11,11, '2024-11-07', 'Vlasta Burian'),
+(12,12, '2023-10-18', 'Silvio Santos'),
+(13,13, '2022-03-26', 'Lee Jae-Yong')
+;
