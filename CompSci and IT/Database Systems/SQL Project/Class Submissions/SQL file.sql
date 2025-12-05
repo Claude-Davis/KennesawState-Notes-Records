@@ -138,3 +138,14 @@ VALUES (9, 'Service'),
 (12, 'Service'),
 (13, 'Service')
 ;
+
+--@block
+SELECT service_condition, id
+FROM service
+WHERE company_unit='Repair'
+;
+--@block
+UPDATE service
+SET service_condition='Data recovery from 2 failed SSDs at Co-Name'
+WHERE id=3
+;
