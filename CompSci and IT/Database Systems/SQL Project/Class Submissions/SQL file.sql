@@ -227,3 +227,15 @@ VALUES (1, 3, '2023-10-23' , 277.50 , '2023-11-24' ),
 (6,7, '2022-03-07', 105.88, '2022-03-14'),
 (8, 9, '2023-04-19', 250.45, '2023-04-21' )
 ;
+
+
+
+
+
+
+--@block
+Select c.*, p.offering_id, p.date_purchased, p.contact_person
+From customer c
+Inner join purchase p
+on c.id = p.customer_id
+;
