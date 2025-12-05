@@ -98,3 +98,27 @@ VALUES (1, 'Laptop', '2000-02-02', 2599.00),
 (4, 'Solid State Drive', '2016-09-09', 90.00),
 (8, 'Wi-Fi Router', '2003-04-04', 45.99)
 ;
+
+--@block
+ALTER TABLE service
+ADD COLUMN `id` INT NOT NULL, 
+DROP PRIMARY KEY,
+ADD PRIMARY KEY (offering_id, id)
+;
+
+--@block 
+SHOW CREATE TABLE Repair;
+--@block
+SHOW CREATE TABLE Maintenance;
+--@block
+CREATE INDEX idx_service_id ON service(id);
+--@block
+ALTER TABLE repair
+DROP FOREIGN KEY `repair_ibfk_1`,
+ADD FOREIGN KEY (service_id) REFERENCES service(id)
+;
+
+ALTER TABLE maintenance
+DROP FOREIGN KEY `maintenance_ibfk_1`,
+ADD FOREIGN KEY (service_id) REFERENCES service(id)
+;
