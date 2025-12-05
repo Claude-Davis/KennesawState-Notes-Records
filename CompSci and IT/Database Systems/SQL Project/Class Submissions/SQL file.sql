@@ -154,3 +154,14 @@ UPDATE service
 SET service_condition='Replace PSU of 4 desktops at Company-Name.'
 WHERE id=6
 ;
+
+--@block
+SELECT service_condition, id
+FROM service
+WHERE company_unit='Maintenance'
+;
+--@block
+UPDATE service
+SET service_condition='Replace power adapter of 2 routers for CompanyName2.'
+WHERE id=4
+;
