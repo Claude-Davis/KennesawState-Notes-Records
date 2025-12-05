@@ -239,3 +239,8 @@ From customer c
 Inner join purchase p
 on c.id = p.customer_id
 ;
+
+Select p.*
+from product p
+WHERE p.standard_price > 500
+;
