@@ -122,3 +122,19 @@ ALTER TABLE maintenance
 DROP FOREIGN KEY `maintenance_ibfk_1`,
 ADD FOREIGN KEY (service_id) REFERENCES service(id)
 ;
+
+--@block
+INSERT INTO service(offering_id, id, company_unit, service_condition)
+VALUES (3, 1, 'Maintenance', 'Remote security patch installations and software updates for Company-Name2 laptops and desktops.'),
+(5, 2, 'Repair', 'Upgrade of RAM module for laptops at CompanyName.'),
+(6, 3, 'Repair', 'Data recovery from 2 failed drives at Co-Name.'),
+(7, 4, 'Maintenance', 'Routine cleaning of ventilation ports of routers for CompanyName2.')
+;
+
+INSERT INTO offering()
+VALUES (9, 'Service'),
+(10, 'Service'),
+(11, 'Service'),
+(12, 'Service'),
+(13, 'Service')
+;
