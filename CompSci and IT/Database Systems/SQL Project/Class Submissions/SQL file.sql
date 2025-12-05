@@ -149,3 +149,8 @@ UPDATE service
 SET service_condition='Data recovery from 2 failed SSDs at Co-Name'
 WHERE id=3
 ;
+--@block
+UPDATE service
+SET service_condition='Replace PSU of 4 desktops at Company-Name.'
+WHERE id=6
+;
