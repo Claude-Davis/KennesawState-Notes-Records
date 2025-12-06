@@ -149,6 +149,35 @@ VALUES (1, 3, '2023-10-23' , 277.50 , '2023-11-24' ),
 (8, 9, '2023-04-19', 250.45, '2023-04-21' )
 ;
 
+--@block
+UPDATE purchase
+SET customer_id=8
+WHERE offering_id=4;
+
+UPDATE purchase
+SET customer_id=9
+WHERE offering_id=13;
+
+UPDATE purchase
+SET customer_id=9
+WHERE offering_id=10;
+
+UPDATE purchase
+SET customer_id=9
+WHERE offering_id=2;
+
+UPDATE purchase
+SET customer_id=12
+WHERE offering_id=1;
+
+UPDATE purchase
+SET customer_id=3
+WHERE offering_id=9;
+
+UPDATE purchase
+SET customer_id=6
+WHERE offering_id=9;
+
 
 
 
