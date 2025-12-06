@@ -84,7 +84,7 @@ VALUES (1, 'Product'),
 (4, 'Product'),
 (5, 'Service'),
 (6, 'Service'),
-(7, 'Service')
+(7, 'Service'),
 (8, 'Product'),
 (9, 'Service'),
 (10, 'Service'),
