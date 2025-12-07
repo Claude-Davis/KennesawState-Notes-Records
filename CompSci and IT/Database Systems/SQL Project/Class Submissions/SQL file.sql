@@ -239,3 +239,11 @@ JOIN service s ON s.id=b.service_id
 ORDER BY amount_due DESC
 LIMIT 1
 ;
+
+--@block Q.6
+SELECT b.service_date, b.customer_id, b.service_id, s.offering_id, s.company_unit, s.service_condition
+FROM bill b
+JOIN service s ON b.service_id=s.id
+ORDER BY b.service_date DESC
+LIMIT 1
+;
