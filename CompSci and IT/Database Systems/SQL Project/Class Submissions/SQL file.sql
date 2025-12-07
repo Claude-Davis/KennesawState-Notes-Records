@@ -192,3 +192,10 @@ Select p.*
 from product p
 WHERE p.standard_price > 500
 ;
+
+--@block
+SELECT o.*, p.name, p.first_release_date, p.standard_price
+FROM offering o
+JOIN product p
+WHERE o.description='Product' AND p.offering_id=o.id
+;
