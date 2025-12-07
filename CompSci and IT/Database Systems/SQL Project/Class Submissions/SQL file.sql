@@ -181,21 +181,25 @@ WHERE offering_id=9;
 
 
 
---@block
+--@block Q.1
 Select c.*, p.offering_id, p.date_purchased, p.contact_person
 From customer c
 Inner join purchase p
 on c.id = p.customer_id
 ;
---@block
+--@block Q.2
 Select p.*
 from product p
 WHERE p.standard_price > 500
 ;
-
---@block
+--@block Q.3
 SELECT o.*, p.name, p.first_release_date, p.standard_price
 FROM offering o
 JOIN product p
 WHERE o.description='Product' AND p.offering_id=o.id
 ;
+--@block Q.4
+SELECT c.*, COUNT(b.customer_id) AS amount_of_services
+FROM customer c
+JOIN bill b ON c.id=b.customer_id
+GROUP BY c.id;
