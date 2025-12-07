@@ -232,4 +232,10 @@ JOIN bill b ON c.id=b.customer_id
 GROUP BY c.id;
 
 --@block Q.5
-
+SELECT b.service_id, b.amount_due, c.name, s.company_unit, s.service_condition
+FROM bill b
+JOIN customer c ON c.id=b.customer_id
+JOIN service s ON s.id=b.service_id
+ORDER BY amount_due DESC
+LIMIT 1
+;
