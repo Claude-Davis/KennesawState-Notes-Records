@@ -212,7 +212,10 @@ JOIN product p
 WHERE o.description='Product' AND p.offering_id=o.id
 ;
 --@block Q.4
-SELECT c.*, COUNT(b.customer_id) AS amount_of_services
+SELECT c.*, COUNT(b.customer_id) AS num_of_services
 FROM customer c
 JOIN bill b ON c.id=b.customer_id
 GROUP BY c.id;
+
+--@block Q.5
+
