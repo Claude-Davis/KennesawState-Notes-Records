@@ -178,6 +178,19 @@ UPDATE purchase
 SET customer_id=6
 WHERE offering_id=9;
 
+--@block
+UPDATE bill
+SET customer_id=11
+WHERE customer_id=9;
+
+UPDATE bill
+SET customer_id=11
+WHERE customer_id=7;
+
+UPDATE bill
+SET customer_id=13
+WHERE customer_id=5;
+
 
 
 
