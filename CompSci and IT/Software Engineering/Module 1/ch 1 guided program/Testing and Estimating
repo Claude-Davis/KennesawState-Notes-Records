@@ -1,0 +1,23 @@
+TESTING
+
+    Types of Testing
+        * Acceptance Test - This test is performed by clients, or by a third party on their behalf, and ensures that the requirements have been met.
+        * Verification Test - This test is preformed by the developers to ensure that the program is functional and correct.
+        * Black-Box Test - This test case is designed based on the requirements and ensures correct output based on the input without knowing the specifics of the code.
+        * White-Box Test - This test case is based on code implementation and ensures that the output is correct by reviewing the specific code/process.
+
+    It is important to create tests for each part/unit of the code so as to identify specific errors quicker.
+
+    Functions should be tested prior to being called/incorporated into the program to identify errors.
+
+
+ESTIMATING EFFORT
+
+    Estimating the amount of time it will take to complete a task aids in developing a schedule and price.
+
+    To make a more accurate estimate...
+        * consider data from past tasks and compare how much time/effort was put into tasks similar to the current one.
+        * consider how much time you have available to dedicate to the task.
+        * divide the overall task into units and estimate the amount of effort/time each unit will take to complete (and test).
+
+    Track/document how much time you spend on parts of a task. Colecting this data can aid in future estimations.
