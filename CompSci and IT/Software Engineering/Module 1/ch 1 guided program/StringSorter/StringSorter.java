@@ -1,7 +1,6 @@
-package StringSorter;
 
 import java.io.*;
-import java.util;
+import java.util.*;
 
 public class StringSorter {
     ArrayList<String> lines;

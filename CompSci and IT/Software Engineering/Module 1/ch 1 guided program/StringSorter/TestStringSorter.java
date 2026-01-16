@@ -1,7 +1,8 @@
 //this class tests the StringSorter method using JUnit
 
-import java.util;
+import java.util.*;
 import java.io.*;
+import junit.framework.TestCase;
 
 public class TestStringSorter extends TestCase {
     private ArrayList<String> make123() {
