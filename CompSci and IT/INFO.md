@@ -12,6 +12,8 @@
 - Tarun Teja Pokala (Programming Problem Solving II lab - Spring 2025)
 - William Forsyth (Programming Principles lecture/lab - Summer 2025)
 - Obioku Obotette (Database Systems lecture - Fall 2052)
+- Lavanya Podinchery Sekar (Introduction to Software Engineering lecture - Spring 2026)
+- Umama Tasnim (Computer Organization and Architecture lecture - Spring 2026)
 
 🍁 Fall 2024 : Python
 
@@ -19,7 +21,9 @@
 
 ☀️ Summer 2025 : Python
 
-🍁 Fall 2024 : SQL
+🍁 Fall 2025 : SQL
+
+🍀 Spring 2026 : Java, C++, Assembly
 
 ---
 
@@ -34,7 +38,9 @@
 - Eun Sik Kim (Programación y Resolución de Problemas II lectura - Primavera 2025)
 - Tarun Teja Pokala (Programación y Resolución de Problemas II lab - Primavera 2025)
 - William Forsyth (lectura/lab - Verano 2025)
-- Obioku Obotette (Database Systems lectura - Otoño 2052)
+- Obioku Obotette (Database Systems lectura - Otoño 2025)
+- Lavanya Podinchery Sekar (Introducción a la Ingeniería de Software lectura - Spring 2026)
+- Umama Tasnim (Organización y Arquitectura de Computadora lectura - Spring 2026)
 
 🍁 Otoño 2024 : Python
 
@@ -42,7 +48,9 @@
 
 ☀️ Verano 2025 : Python
 
-🍁 Otoño 2024 : SQL
+🍁 Otoño 2025 : SQL
+
+🍀 Primavera 2026 : Java, C++, Assembly
 
 ---
 
