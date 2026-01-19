@@ -9,7 +9,8 @@
         - total approximately (10mins)
     ---
 
-    Start: 
+01/19
+    Start: 1700
     End: 
     So far...
         - 

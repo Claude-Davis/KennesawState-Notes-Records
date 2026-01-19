@@ -1,26 +1,40 @@
-package src;
+
 import java.util.*;
 import java.io.*;
 
 public class Main {
-    public static void main(String[] args) {
-        //obj of Scanner class to take input
-        Scanner sc = new Scanner (System.in);
-
-        //obj of ArrayList class to save user input
-        ArrayList<rWhitespace> user_nums = new ArrayList<>();
-
-        //request user input until they hit enter
-        String request_to_user = "Input a series of numbers separated by a space: ";
-        String user_input = sc.nextLine();
-                                /*Double user_input = Double.parseDouble(sc.nextLine());*/ //take in user input as string type, but convert it to type double
+    public static void main (String[] args) {
+        Scanner sc = new Scanner(System.in);
+        ArrayList<Double> user_inputs = new ArrayList<>();
         
-        //transfer each number into 'user_nums'
-        user_nums = rWhitespace.removeWhitespace(user_input);
+        Boolean run = true;
 
-        //convert each value from string to double
 
-        //separate user input and save to arraylist
-        user_nums.add(user_input);
+        //request user input
+        System.out.println("Input a series of numbers to find their average.");
+        System.out.println("After you input a number, press the 'Enter' key to insert the next number.\nInsert a '0' when done.");
+
+        //take in user input
+
+        while (run) {
+            String program_counter = sc.nextLine();
+            Double user_num = 0.0;
+            
+            try {
+                user_num = Double.parseDouble(program_counter);
+
+                if (user_num == 0) {                    //end this section of program when input is a zero
+                    break;
+                } else {
+                    user_inputs.add(user_num);          //add verified input to arraylist
+                    System.out.println(user_inputs);
+                }
+            }
+            catch (NumberFormatException e) {
+                System.out.println("Your input is not a number.");
+                break;
+            }
+           
+        }
     }
 }
