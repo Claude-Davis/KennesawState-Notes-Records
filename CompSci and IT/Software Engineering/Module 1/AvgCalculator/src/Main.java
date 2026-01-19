@@ -29,11 +29,15 @@ public class Main {
                     user_inputs.add(verified_num);          //add verified input to arraylist
                     //System.out.println(user_inputs);                                                //line to verify input is being saved to arraylist
                 }
-            }
-            catch (NumberFormatException e) {
-                System.out.println("Your input is not a number.");
-                user_inputs.clear();
-                run = false;
+            } catch (NumberFormatException e) {
+                if (program_counter == null) {
+                    System.out.println("Your input is not a number.");
+                    System.exit(0);
+                } else {
+                    System.out.println("Cannot divide by zero. Provide input.");
+                    System.exit(0);
+                }
+                
             }
         }
 

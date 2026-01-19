@@ -30,8 +30,8 @@ public class FindAvg {
 
     //calculate average
     public Double calculateAverage(Double sum, Integer denom) {
-        this.average = sum / denom;
-        return average;
+            this.average = sum / denom;
+            return average;
     }
 
 
