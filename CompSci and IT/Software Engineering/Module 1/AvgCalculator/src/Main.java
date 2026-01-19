@@ -32,7 +32,8 @@ public class Main {
             }
             catch (NumberFormatException e) {
                 System.out.println("Your input is not a number.");
-                break;
+                user_inputs.clear();
+                run = false;
             }
         }
 
