@@ -18,23 +18,37 @@ public class Main {
 
         while (run) {
             String program_counter = sc.nextLine();
-            Double user_num = 0.0;
+            Double verified_num = 0.0;
             
             try {
-                user_num = Double.parseDouble(program_counter);
+                verified_num = Double.parseDouble(program_counter);
 
-                if (user_num == 0) {                    //end this section of program when input is a zero
-                    break;
+                if (verified_num == 0) {                    //end this section of program when input is a zero
+                    run = false;
                 } else {
-                    user_inputs.add(user_num);          //add verified input to arraylist
-                    System.out.println(user_inputs);
+                    user_inputs.add(verified_num);          //add verified input to arraylist
+                    //System.out.println(user_inputs);                                                //line to verify input is being saved to arraylist
                 }
             }
             catch (NumberFormatException e) {
                 System.out.println("Your input is not a number.");
                 break;
             }
-           
         }
+
+        //calculate the sum
+        FindAvg avg = new FindAvg(user_inputs);
+
+        Double sum_total = avg.calculateTotal(user_inputs);
+        //System.out.println(avg.getSum());                                                             //line to verify sum is being calculated 
+
+        //calculate the average
+        Integer denominator = avg.findDenominator(user_inputs);
+        //System.out.println(avg.getDenom());                                                           //ine to verify denominator is calculated
+
+        Double final_average = avg.calculateAverage(sum_total, denominator);
+        System.out.print(avg.getAvg());         //final output
     }
 }
+
+
