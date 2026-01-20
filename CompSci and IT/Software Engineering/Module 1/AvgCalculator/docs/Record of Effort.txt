@@ -1,0 +1,23 @@
+01/17/2026
+    Start: 0654
+    End: 0900
+    So far...
+        - user input is requested and stored in program
+        - class and method created to remove whitespaces from user input
+    Breaks...
+        - 2
+        - total approximately (10mins)
+    ---
+
+01/19/2026
+    Start: 1700
+    End: 1914
+    So far...
+        - Program completed
+        - Original solution plan re-evaluated and adjusted
+        - Tested to and updated to handle the following scenarios:
+            - if all inputs are valid numerical numbers (positive or negative, whole or irrational) and the final input is zero or null : the average is calculated, zero and null move the program to begin calculations and are not counted in the calculations
+            - if the only input is zero or null : the user is given the error "cannot divide by zero," told to provide input and the program ends
+            - if a non-null and non-numeric value is given (either only or in addition to valid input) : the user is told that their input is not a number and the program ends
+    Breaks...
+        - None
