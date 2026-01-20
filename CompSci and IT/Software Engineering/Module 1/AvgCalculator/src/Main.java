@@ -18,6 +18,7 @@ public class Main {
 
         while (run) {
             String program_counter = sc.nextLine();
+            
             Double verified_num = 0.0;
             
             try {
@@ -30,11 +31,11 @@ public class Main {
                     //System.out.println(user_inputs);                                                //line to verify input is being saved to arraylist
                 }
             } catch (NumberFormatException e) {
-                if (program_counter == null) {
-                    System.out.println("Your input is not a number.");
+                if (program_counter == "") {
+                    System.out.println("Cannot divide by zero. Provide input.");
                     System.exit(0);
                 } else {
-                    System.out.println("Cannot divide by zero. Provide input.");
+                    System.out.println("Your input is not a number.");
                     System.exit(0);
                 }
                 

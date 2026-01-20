@@ -51,6 +51,10 @@ public class FindAvg {
 
     //get the average
     public String getAvg() {
-        return "The average of your inputs is : " + average;
+        if (this.total_sum == 0) {
+            return "Cannot divide by zero. Provide additional input.";
+        } else {
+            return "The average of your inputs is : " + average;
+        }
     }
 }
